@@ -1,0 +1,22 @@
+{
+  "name": "fin-hypergrid-drill-down-demo",
+  "version": "1.0.0",
+  "description": "Sample code for building a drill down api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {
+    "fin-hypergrid": "^2.0.2",
+    "tree-view": "file:../tree-view",
+    "drill-down-api": "file:../drill-down-api",
+    "row-by-id": "file:../row-by-id"
+  }
+}

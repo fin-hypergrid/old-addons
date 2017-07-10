@@ -1,0 +1,14 @@
+{
+  "name": "aggregations",
+  "version": "1.0.0",
+  "description": "...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fin-hypergrid-data-source-base": "^0.4.10"
+  }
+}

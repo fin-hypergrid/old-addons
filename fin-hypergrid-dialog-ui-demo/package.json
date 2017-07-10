@@ -1,0 +1,26 @@
+{
+  "name": "fin-hypergrid-dialog-ui-demo",
+  "version": "1.0.0",
+  "description": "Sample code for building a drill down api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {
+    "fin-hypergrid": "^2.0.2",
+    "pop-menu": "0.2.5",
+    "automat": "1.2.0",
+    "list-dragon": "1.3.3",
+    "tabz": "1.1.3",
+    "filtering": "file:../filtering",
+    "sorting": "file:../sorting",
+    "dialog-ui": "file:../dialog-ui"
+  }
+}

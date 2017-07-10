@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+    <script src="build/index.js"></script>
+    <style>
+        .hypergrid-container {
+            height: 170px;
+        }
+        pre {
+            font-family: monospace;
+            display: block;
+            padding: 5px;
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+<h3>Altering summary data</h3>
+In dev console, you can alter the summary data with or without the help of the API.
+
+To retrieve the first (and only) summary data row, modify the 4th cell, and repaint:
+<h4>Without the API:</h4>
+<pre>var totals = grid.behavior.subgrids.lookup.topTotals.getRow(0);
+totals[3] = 5050;
+grid.repaint();</pre>
+<h4>With the API:</h4>
+<pre>var totalRows = grid.behavior.getTopTotals();
+var totals = totalRows[0];
+totals[3] = 5050;
+grid.behavior.setTopTotals(totals);</pre>
+<em>Note that in this example, the same row data array is being used for both top and bottom, so changing one also changes the other.</em>
+<br><br>
+</body>
+</html>

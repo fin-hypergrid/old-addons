@@ -1,0 +1,20 @@
+{
+  "name": "fin-hypergrid-aggregations-view-demo",
+  "version": "1.0.0",
+  "description": "Sample code implements the tree-column api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dwayne Jones <dwayne@openfin.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {
+    "fin-hypergrid": "^2.0.2",
+    "aggregations": "file:../aggregations"
+  }
+}

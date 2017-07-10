@@ -1,0 +1,20 @@
+{
+  "name": "fin-hypergrid-grouped-header-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {
+    "fin-hypergrid": "^2.0.2",
+    "grouped-header": "file:../grouped-header"
+  }
+}
